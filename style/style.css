@@ -1,0 +1,166 @@
+
+button{
+    border-radius: 20px;
+    width: 100px;
+
+}
+
+.buton{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background-color: yellow;
+    color: black!important;
+}
+
+body {
+    margin: 20px;
+}
+
+.titulo-pag{
+color: white;
+margin-top: 30px;
+text-align: left;
+margin: 50px;
+}
+
+.titulo{
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/img/image.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 17vh;
+}
+
+.input-group{
+    justify-content: center;
+}
+
+.input-group{
+    width: 30%;
+    margin: 6vh 120vh;
+
+}
+
+.interno{
+color: black;
+text-align: center;
+}
+.categoria{
+    margin-top: 15vh;
+    text-align: left;
+}
+
+
+.imagen-pel{
+    text-align: center;
+}
+
+.sub-cat{
+    margin-top: 15vh;
+}
+
+.titulo-principal{
+    margin-top: 15vh;
+}
+
+.imagen-pel{
+    cursor: pointer;
+}
+
+.titulo-pel{
+    margin: 10vh 2%;
+}
+
+.imagen-principal{
+    margin: 10vh 7%;
+    width: 270vh;
+    height: 52vh;
+    overflow: hidden;
+}
+
+.titulo-interna-paw{
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/img/image.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 6vh;
+}
+
+.atras{
+    text-align: left;
+    text-decoration: none;
+    color:white;
+
+
+}
+
+.titulo-interna{
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/img/image.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 17vh;
+}
+
+.atras:hover{
+    text-decoration:underline;
+    color: white;
+}
+.atras:before{
+    content: url(/img/atras.png);
+}
+
+.specs{
+    padding:30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    
+}
+
+.fecha:hover{
+    text-decoration: underline;
+}
+
+.fecha::before{
+content: url(/img/reloj-de-pared.png);
+}
+
+.duracion::before{
+    content: url(/img/reloj-duracion.png);
+    color: black;
+}
+
+.presupuesto::before{
+    content: url(/img/billete-de-banco.png);
+    color: black;
+}
+
+.generos{
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: fit-content;
+    }
+}
+
